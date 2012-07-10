@@ -6,3 +6,4 @@ obj
 TestResults
 /src/_ReSharper.Orchard
 /src/Orchard.Web/App_Data
+/src/Orchard.Web/App_Data/Sites/Default/Orchard.sdf
