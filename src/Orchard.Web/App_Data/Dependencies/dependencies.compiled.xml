@@ -286,7 +286,7 @@
     <ExtensionId>SkyWalker.WebShop</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/SkyWalker.WebShop/SkyWalker.WebShop.csproj</VirtualPath>
-    <Hash>2374c6c3f34fe9f8</Hash>
+    <Hash>2374c8307e8cebba</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>TinyMce</ExtensionId>
