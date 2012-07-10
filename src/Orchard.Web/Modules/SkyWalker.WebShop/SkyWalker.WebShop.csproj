@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Drivers\ProductDriver.cs" />
     <Compile Include="Migration.cs" />
     <Compile Include="ProductPart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
