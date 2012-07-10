@@ -32,21 +32,32 @@
       <Reference>
         <Name>ICSharpCode.SharpZipLib</Name>
         <LoaderName>PrecompiledExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/Orchard.Media/bin/ICSharpCode.SharpZipLib.dll</VirtualPath>
+        <VirtualPath>~/Modules/Contrib.ImageField/bin/ICSharpCode.SharpZipLib.dll</VirtualPath>
       </Reference>
     </References>
   </Dependency>
   <Dependency>
     <ModuleName>Contrib.ImageField</ModuleName>
-    <VirtualPath>~/Modules/Contrib.ImageField/Contrib.ImageField.csproj</VirtualPath>
-    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Contrib.ImageField/bin/Contrib.ImageField.dll</VirtualPath>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <References>
+      <Reference>
+        <Name>ICSharpCode.SharpZipLib</Name>
+        <LoaderName>PrecompiledExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Contrib.ImageField/bin/ICSharpCode.SharpZipLib.dll</VirtualPath>
+      </Reference>
       <Reference>
         <Name>Orchard.Media</Name>
         <LoaderName>PrecompiledExtensionLoader</LoaderName>
         <VirtualPath>~/Modules/Orchard.Media/bin/Orchard.Media.dll</VirtualPath>
       </Reference>
     </References>
+  </Dependency>
+  <Dependency>
+    <ModuleName>Contrib.PlacesField</ModuleName>
+    <VirtualPath>~/Modules/Contrib.PlacesField/bin/Contrib.PlacesField.dll</VirtualPath>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <References />
   </Dependency>
   <Dependency>
     <ModuleName>Dashboard</ModuleName>
@@ -274,7 +285,7 @@
       <Reference>
         <Name>ICSharpCode.SharpZipLib</Name>
         <LoaderName>PrecompiledExtensionLoader</LoaderName>
-        <VirtualPath>~/Modules/Orchard.Media/bin/ICSharpCode.SharpZipLib.dll</VirtualPath>
+        <VirtualPath>~/Modules/Contrib.ImageField/bin/ICSharpCode.SharpZipLib.dll</VirtualPath>
       </Reference>
       <Reference>
         <Name>Orchard.Media</Name>
@@ -515,6 +526,12 @@
     <ModuleName>Shapes</ModuleName>
     <VirtualPath>~/Core/Shapes</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>SkyWalker.WebShop</ModuleName>
+    <VirtualPath>~/Modules/SkyWalker.WebShop/SkyWalker.WebShop.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References />
   </Dependency>
   <Dependency>

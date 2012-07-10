@@ -34,4 +34,5 @@
   <Module PersistentId="6CB3EB30-F725-45C0-9742-42599BA8E8D2" ModuleId="Orchard.Tests.Modules" />
   <Module PersistentId="3787DDE5-E5C8-4841-BDA7-DCB325388064" ModuleId="Orchard.Fields" />
   <Module PersistentId="66FCCD76-2761-47E3-8D11-B45D0001DDAA" ModuleId="Orchard.Autoroute" />
+  <Module PersistentId="1549503C-EE5F-422F-99A1-7C2FF52E0BAA" ModuleId="SkyWalker.WebShop" />
 </Modules>

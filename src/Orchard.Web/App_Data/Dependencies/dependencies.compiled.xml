@@ -8,9 +8,15 @@
   </Dependency>
   <Dependency>
     <ExtensionId>Contrib.ImageField</ExtensionId>
-    <LoaderName>DynamicExtensionLoader</LoaderName>
-    <VirtualPath>~/Modules/Contrib.ImageField/Contrib.ImageField.csproj</VirtualPath>
-    <Hash>6366ceb9a4de937f</Hash>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Contrib.ImageField/bin/Contrib.ImageField.dll</VirtualPath>
+    <Hash>dbc26a7a347f2e8b</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>Contrib.PlacesField</ExtensionId>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/Contrib.PlacesField/bin/Contrib.PlacesField.dll</VirtualPath>
+    <Hash>490c03df69a568e8</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>Lucene</ExtensionId>
@@ -275,6 +281,12 @@
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/Orchard.Widgets/bin/Orchard.Widgets.dll</VirtualPath>
     <Hash>dbaa1029d39ca0e5</Hash>
+  </Dependency>
+  <Dependency>
+    <ExtensionId>SkyWalker.WebShop</ExtensionId>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/SkyWalker.WebShop/SkyWalker.WebShop.csproj</VirtualPath>
+    <Hash>2374c6c3f34fe9f8</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>TinyMce</ExtensionId>

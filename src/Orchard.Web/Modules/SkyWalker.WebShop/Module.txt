@@ -1,0 +1,8 @@
+Name: Orchard.Webshop
+AntiForgery: enabled
+Author: Rich Smith
+Website: http://orchardproject.net
+Version: 1.0
+OrchardVersion: 1.4.2
+Description: webshop demo
+Category: Webshop
