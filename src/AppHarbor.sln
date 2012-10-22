@@ -28,8 +28,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.Setup", "Orchard.We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSBuild.Orchard.Tasks", "Tools\MSBuild.Orchard.Tasks\MSBuild.Orchard.Tasks.csproj", "{5E5E7A21-C7B2-44D8-8593-2F9541AE041D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.Specs", "Orchard.Specs\Orchard.Specs.csproj", "{7354DF37-934B-46CF-A13C-455D5F5F5413}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard", "Tools\Orchard\Orchard.csproj", "{33B1BC8D-E292-4972-A363-22056B207156}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orchard.Themes", "Orchard.Web\Modules\Orchard.Themes\Orchard.Themes.csproj", "{CDE24A24-01D3-403C-84B9-37722E18DFB7}"
