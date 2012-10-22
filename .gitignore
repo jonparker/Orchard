@@ -5,8 +5,6 @@ obj
 # mstest test results
 TestResults
 /src/_ReSharper.Orchard
-/src/Orchard.Web/App_Data
-/src/Orchard.Web/App_Data/Sites/Default/Orchard.sdf
 
 # Resharper
 /src/_Resharper.*
@@ -14,3 +12,5 @@ TestResults
 
 # Visual Studio
 *.suo
+
+*.user
