@@ -581,6 +581,18 @@
     </References>
   </Dependency>
   <Dependency>
+    <ModuleName>Werul.S3StorageProvider</ModuleName>
+    <VirtualPath>~/Modules/Werul.S3StorageProvider/Werul.S3StorageProvider.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References>
+      <Reference>
+        <Name>AWSSDK</Name>
+        <LoaderName>DynamicExtensionLoader</LoaderName>
+        <VirtualPath>~/Modules/Werul.S3StorageProvider/lib/AWSSDK.dll</VirtualPath>
+      </Reference>
+    </References>
+  </Dependency>
+  <Dependency>
     <ModuleName>XmlRpc</ModuleName>
     <VirtualPath>~/Core/XmlRpc</VirtualPath>
     <LoaderName>CoreExtensionLoader</LoaderName>
