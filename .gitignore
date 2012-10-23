@@ -7,11 +7,14 @@ TestResults
 /src/_ReSharper.Orchard
 
 # Resharper
-/src/_ReSharper.*
-**/_ReSharper.Orchard/**
+/src/_ReSharper.*/**
 *.Resharper.*
 
 # Visual Studio
 *.suo
 
 *.user
+
+*.ncrunchsolution
+
+src/Orchard.Web/App_Data/Logs/**
